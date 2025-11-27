@@ -4,9 +4,12 @@ App based on Tauri and Svelte
 
 Just to test around and find out
 
+Pictures not added to the repo yet
+
 ## Set up to try
 
-Check this [page](https://v2.tauri.app/start/prerequisites/#macos "Tauri prerequisites page") to install everything you need for testing the app
+Check this [page](https://v2.tauri.app/start/prerequisites/ "Tauri prerequisites page") to install everything you need for testing the app
+
 Not mobile oriented (yet ?), so no mobile config needed btw
 
 ## Next things to do on this project
@@ -18,7 +21,7 @@ Not mobile oriented (yet ?), so no mobile config needed btw
 
 ---
 
-# Tauri basic set up leftovers :
+# Tauri's initial installation leftovers :
 
 ## Tauri + Vanilla TS
 
