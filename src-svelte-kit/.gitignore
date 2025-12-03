@@ -23,4 +23,4 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # lock files
-pnpnm-lock.yaml
+pnpm-lock.yaml
