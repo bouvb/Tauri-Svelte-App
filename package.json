@@ -1,23 +1,23 @@
 {
-  "name": "tauri-svelte-app",
-  "private": true,
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview",
-    "tauri": "tauri",
-    "tauri:dev": "tauri dev"
-  },
-  "dependencies": {
-    "@tauri-apps/api": "^2",
-    "@tauri-apps/plugin-http": "~2.5.4",
-    "@tauri-apps/plugin-opener": "^2"
-  },
-  "devDependencies": {
-    "@tauri-apps/cli": "^2",
-    "typescript": "~5.6.2",
-    "vite": "^6.0.3"
-  }
+	"name": "tauri-svelte-app",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"scripts": {
+		"tauri": "tauri",
+		"tauri:dev": "tauri dev",
+		"reinstall": "rm -rf node_modules pnpm-lock.yaml && pnpm install",
+		"format": "prettier --write .",
+		"lint": "prettier --check ."
+	},
+	"dependencies": {
+		"@tauri-apps/api": "^2",
+		"@tauri-apps/plugin-http": "~2.5.4",
+		"@tauri-apps/plugin-opener": "^2"
+	},
+	"devDependencies": {
+		"@tauri-apps/cli": "^2",
+		"prettier": "^3.7.1",
+		"prettier-plugin-svelte": "^3.4.0"
+	}
 }

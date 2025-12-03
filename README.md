@@ -8,13 +8,13 @@ Pictures not added to the repo yet
 
 ## Set up to try
 
-Check this [page](https://v2.tauri.app/start/prerequisites/ "Tauri prerequisites page") to install everything you need for testing the app
+Check this [page](https://v2.tauri.app/start/prerequisites/ 'Tauri prerequisites page') to install everything you need for testing the app
 
 Not mobile oriented (yet ?), so no mobile config needed btw
 
 ## Next things to do on this project
 
-- [ ] Install Svelte (+ Svelte Kit ?)
+- [x] Install Svelte (+ Svelte Kit & Prettier)
 - [ ] Set up a Home page
 - [ ] Adding a navigation (side bar menu + navbar)
 - [ ] Set up a postman-like app (need to break it down into a todo-list)

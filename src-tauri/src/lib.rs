@@ -7,9 +7,9 @@ pub fn run() {
         .plugin(tauri_plugin_http::init()) // add plugin here
         .plugin(tauri_plugin_opener::init())
         .invoke_handler(tauri::generate_handler![
-            services::home::greet, 
+            services::home::greet,
             services::api_caller::call_api
-            ]) // func invoked on the front end part
+        ]) // func invoked on the front end part
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
