@@ -16,7 +16,9 @@ Not mobile oriented (yet ?), so no mobile config needed btw
 
 - [x] Install Svelte (+ Svelte Kit & Prettier)
 - [ ] Set up a Home page
-- [ ] Adding a navigation (side bar menu + navbar)
+- [ ] Adding a navigation :
+    - [x] side bar menu
+    - [ ] navbar
 - [ ] Set up a postman-like app (need to break it down into a todo-list)
 
 ---

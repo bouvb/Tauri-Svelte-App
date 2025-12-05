@@ -1,4 +1,22 @@
-.logo.vite:hover {
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* :global(#svelte) {
+	width: 100%;
+	height: 100%;
+} */
+
+/* .logo.vite:hover {
 	filter: drop-shadow(0 0 2em #747bff);
 }
 
@@ -120,4 +138,4 @@ button.test-btn-class {
 	margin-top: 20px;
 	width: fit-content;
 	background-color: red;
-}
+} */

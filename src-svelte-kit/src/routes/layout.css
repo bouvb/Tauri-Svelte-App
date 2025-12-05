@@ -1,3 +1,30 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	/** White */
+	--color-white: #f6f6f6;
+	--color-whitegray: #e6e1db;
+
+	/** Grey */
+	--color-grey-light: #d6d5c8;
+	--color-grey-normal: #bdbbb0;
+	--color-grey-dark: #9f9c94;
+	--color-grey-second: #b8b3ac;
+	--color-gray-border: #5b5851;
+
+	/** Black */
+	--color-black-border: #010405;
+
+	/** Orange */
+	--color-orange-lighter: #c89777;
+	--color-orange-light: #dbaf8e;
+	--color-orange-normal: #d38d6e;
+	--color-orange-dark: #bd5831;
+
+	/** Font Family */
+	--font-sans: 'Inter', sans-serif;
+	--font-kettler: 'Kettler Web', monospace;
+	--font-prestige: 'Prestige Elite Std', monospace;
+}
