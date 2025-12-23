@@ -16,17 +16,15 @@
 		} catch (e) {
 			res = 'error: ' + (e as Error).message;
 		} finally {
-			resToDisplay = JSON.parse(res as string);
+			resToDisplay = res as string;
 		}
 	};
 </script>
 
-<main class="container h-full max-h-full min-h-0 flex flex-col items-center justify-center mx-auto p-4 gap-2">
-	<h1>Welcome to <span class="text-orange-400 font-semibold">API Caller</span></h1>
-	<input class="w-auto rounded" type="text" placeholder="Enter your word e.g. hello" bind:value={wordInput} />
+<main class="container h-full flex flex-col items-center justify-center mx-auto p-4 gap-2">
+	<h1>Add</h1>
+
+	<!-- <input class="w-auto rounded" type="text" placeholder="Enter your word e.g. hello" bind:value={wordInput} />
 	<button class="btn-primary" type="button" on:click|preventDefault={() => callAPI()}>Call Api</button>
-	<pre
-		class="grow p-2 w-full mx-4 border-2 border-black-border rounded bg-whitegray text-xs whitespace-pre-wrap wrap-break-word overflow-auto">{!resToDisplay
-			? ''
-			: JSON.stringify(resToDisplay, null, 2)}</pre>
+	<textarea readonly class="grow p-2 w-full mx-4 resize-none border rounded bg-grey-normal">{resToDisplay}</textarea> -->
 </main>

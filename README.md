@@ -20,7 +20,11 @@ Not mobile oriented (yet ?), so no mobile config needed btw
     - [x] side bar menu
     - [x] navbar
 - [ ] Set up a postman-like app (need to break it down into a todo-list)
-- [ ] Add some mini games (tower defense, snake, sentry-turret, ...) with Phaser ?
+    - [ ] main screen
+        - [x] basic call to an api ([dictionaryAPI](https://dictionaryapi.dev/ 'dictionaryAPI website'))
+    - [ ] Saved APIs - Page
+    - [ ] Add new API - Page
+- [ ] Add some mini games (tower defense, snake, sentry-turret, ...) with [Phaser](https://docs.phaser.io/phaser/getting-started/what-is-phaser 'Phaser Documentation website link') ?
 
 ### Others
 
