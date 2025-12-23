@@ -8,7 +8,7 @@
 		"opener:default",
 		{
 			"identifier": "http:default",
-			"allow": [{ "url": "https://*.tauri.app" }, true],
+			"allow": [{ "url": "https://*.tauri.app" }],
 			"deny": [{ "url": "https://private.tauri.app" }]
 		}
 	]

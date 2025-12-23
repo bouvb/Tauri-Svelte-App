@@ -15,11 +15,18 @@ Not mobile oriented (yet ?), so no mobile config needed btw
 ## Next things to do on this project
 
 - [x] Install Svelte (+ Svelte Kit & Prettier)
-- [ ] Set up a Home page
+- [x] Set up a Home page
 - [ ] Adding a navigation :
     - [x] side bar menu
     - [ ] navbar
 - [ ] Set up a postman-like app (need to break it down into a todo-list)
+- [ ] Add some mini games (tower defense, snake, sentry-turret, ...) with Phaser ?
+
+### Others
+
+- [ ] renaming files to follow svelte best practices
+- [ ] looking for svg icon integration to follow svelte best practices
+- [ ] rework the active-hover button colors
 
 ---
 
