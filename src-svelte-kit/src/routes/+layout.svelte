@@ -1,7 +1,7 @@
 <script lang="ts">
 	import './layout.css';
-	import Sidebarmenu from '../components/sidebarmenu/sidebarmenu.svelte';
-	import SidebarmenuBtn from '../components/sidebarmenu/sidebarmenu-btn.svelte';
+	import Sidebarmenu from '$lib/components/sidebarmenu/sidebarmenu.svelte';
+	import Navbar from '$lib/components/navbar/navbar.svelte';
 
 	let { children } = $props();
 </script>
