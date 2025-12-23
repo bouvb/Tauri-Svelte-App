@@ -16,9 +16,9 @@ Not mobile oriented (yet ?), so no mobile config needed btw
 
 - [x] Install Svelte (+ Svelte Kit & Prettier)
 - [x] Set up a Home page
-- [ ] Adding a navigation :
+- [x] Adding a navigation :
     - [x] side bar menu
-    - [ ] navbar
+    - [x] navbar
 - [ ] Set up a postman-like app (need to break it down into a todo-list)
 - [ ] Add some mini games (tower defense, snake, sentry-turret, ...) with Phaser ?
 
