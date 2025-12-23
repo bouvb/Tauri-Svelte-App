@@ -11,6 +11,10 @@ export const appRoutes = [
 		title: 'Api Caller',
 		path: '/api-caller',
 		iconSrc: siteBrowserIcon,
+		children: [
+			{ title: 'Saved APIs', path: '/saved' },
+			{ title: 'Add API', path: '/new' },
+		],
 	},
 	{
 		title: 'Pomodoro Timer',

@@ -12,11 +12,7 @@
 </svelte:head>
 
 <div class="app-layout">
-	<div id="navbar" class="bg-grey-light flex-none inline-flex gap-2 items-center h-12 header p-2">
-		<SidebarmenuBtn />
-		<p class="ml-1.5">App title</p>
-		<p>submenu</p>
-	</div>
+	<Navbar />
 	<Sidebarmenu />
 	{@render children()}
 </div>
