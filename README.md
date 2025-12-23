@@ -31,6 +31,7 @@ Not mobile oriented (yet ?), so no mobile config needed btw
 - [ ] renaming files to follow svelte best practices
 - [ ] looking for svg icon integration to follow svelte best practices
 - [ ] rework the active-hover button colors
+- [ ] rework the UI colour scheme
 
 ---
 

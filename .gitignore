@@ -26,7 +26,6 @@ dist-ssr
 
 # lock files
 pnpm-lock.yaml
-Cargo.lock
 
 # local non repo files
 inspirations_notes/
