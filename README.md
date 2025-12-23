@@ -8,9 +8,15 @@ Pictures not added to the repo yet
 
 ## Set up to try
 
-Check this [page](https://v2.tauri.app/start/prerequisites/ 'Tauri prerequisites page') to install everything you need for testing the app
-
+Check this [page](https://v2.tauri.app/start/prerequisites/ 'Tauri prerequisites page') to install everything Rust related you need for testing the app
 Not mobile oriented (yet ?), so no mobile config needed btw
+
+Pnpm 10.23.0 used here, check this [page](https://pnpm.io/installation/ 'PNPM Installation Page') to install
+Then run this command the cloned directory :
+`$ pnpm install-complete`
+
+And this command to run the App :
+`$ pnpm tauri:dev`
 
 ## Next things to do on this project
 

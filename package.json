@@ -4,6 +4,7 @@
 	"version": "0.1.0",
 	"type": "module",
 	"scripts": {
+		"install-complete": "pnpm i && pnpm --dir src-svelte-kit i",
 		"tauri": "tauri",
 		"tauri:dev": "tauri dev",
 		"reinstall": "rm -rf node_modules pnpm-lock.yaml && pnpm install",
