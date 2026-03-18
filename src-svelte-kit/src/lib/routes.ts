@@ -21,6 +21,11 @@ export const appRoutes = [
 		path: '/pomodoro',
 		iconSrc: '',
 	},
+	{
+		title: 'Mini Games',
+		path: '/mini-games',
+		iconSrc: '',
+	},
 	// {
 	// 	title: 'Products',
 	// 	path: '/products',
